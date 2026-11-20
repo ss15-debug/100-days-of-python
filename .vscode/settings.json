@@ -1,0 +1,9 @@
+{
+    // Use the project's own virtual environment.
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    // Auto-activate that venv in every new integrated terminal,
+    // so a bare `python file.py` works.
+    "python.terminal.activateEnvironment": true,
+    // Run files from the project root so relative paths behave predictably.
+    "python.terminal.executeInFileDir": false
+}

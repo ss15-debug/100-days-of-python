@@ -13,5 +13,6 @@ __pycache__/
 .DS_Store
 
 # Editors
-.vscode/
+.vscode/*
+!.vscode/settings.json
 .idea/
